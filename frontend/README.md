@@ -1,16 +1,34 @@
-# React + Vite
+# Frontend - Quan ly thiet bi phong hoc
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Cong nghe
+- React
+- Vite
+- Nginx
+- Docker
 
-Currently, two official plugins are available:
+## Chay bang Docker
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Tai image:
 
-## React Compiler
+```bash
+docker pull 235503nguyentantai/235503-frontend:latest
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Chay container:
 
-## Expanding the Oxlint configuration
+```bash
+docker run -d --name frontend-container -p 8080:80 235503nguyentantai/235503-frontend:latest
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Truy cap:
+http://localhost:8080
+
+## Docker Hub
+
+https://hub.docker.com/r/235503nguyentantai/235503-frontend
+
+## Backend API
+
+Frontend su dung bien moi truong `VITE_API_URL` de ket noi Backend API.
+
+Khi build Docker, truyen URL Backend bang `--build-arg VITE_API_URL=...`.
