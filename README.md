@@ -425,33 +425,7 @@ Dự án đã thực hiện các nội dung từ Câu 1 đến Câu 8 của bài
 | 7 | Deploy Frontend Render | Hoàn thành |
 | 8 | Deploy Backend Render | Hoàn thành |
 
-## CÁC ĐƯỜNG DẪN NỘP BÀI
 
-**1. GitHub Repository**
-
-https://github.com/NTanTai004/235503_NguyenTanTai
-
-**2. Docker Hub Backend**
-
-https://hub.docker.com/r/235503nguyentantai/235503-backend
-
-**3. Docker Hub Frontend**
-
-https://hub.docker.com/r/235503nguyentantai/235503-frontend
-
-**4. Render Backend**
-
-https://api-235503.onrender.com
-
-**5. Backend Health Check**
-
-https://api-235503.onrender.com/health
-
-**6. Render Frontend**
-
-`[CẬP NHẬT URL FRONTEND RENDER TẠI ĐÂY]`
-
----
 
 **Sinh viên thực hiện: Nguyễn Tấn Tài**
 
